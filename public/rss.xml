@@ -1,0 +1,69 @@
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notefull</title>
+    <link>https://notefull-test.vercel.app</link>
+    <description>Dev blog built with notefull ❤️</description>
+    <language>ko</language>
+    <lastBuildDate>Sun, 04 Sep 2022 00:00:00 GMT</lastBuildDate>
+    <webMaster>danpa725@cau.ac.kr (danpacho)</webMaster>
+    <managingEditor>danpa725@cau.ac.kr (danpacho)</managingEditor>
+    <atom:link href="https://notefull-test.vercel.app/rss.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <guid>https://notefull-test.vercel.app/Blog/1/jotaish-개발기</guid>
+      <title>jotaish 개발기</title>
+      <link>https://notefull-test.vercel.app/Blog/1/jotaish-개발기</link>
+      <description>jotai를 더욱 지혜롭게 사용하기 위한 고민(발악)</description>
+      <pubDate>Sun, 04 Sep 2022 00:00:00 GMT</pubDate>
+      <author>danpa725@cau.ac.kr (단팥초)</author>
+      <category>jotai</category><category>react</category><category>state-management</category>
+    </item>
+    <item>
+      <guid>https://notefull-test.vercel.app/Blog/1/intro</guid>
+      <title>Next Your Home</title>
+      <link>https://notefull-test.vercel.app/Blog/1/intro</link>
+      <description>Next your home is built with Typescript and beautiful</description>
+      <pubDate>Wed, 27 Jul 2022 00:00:00 GMT</pubDate>
+      <author>danpa725@cau.ac.kr (danpacho)</author>
+      <category>blog</category><category>nextJs</category>
+    </item>
+    <item>
+      <guid>https://notefull-test.vercel.app/NextJs/1/NextJs[2]</guid>
+      <title>NextJs series2 🎉</title>
+      <link>https://notefull-test.vercel.app/NextJs/1/NextJs[2]</link>
+      <description>you can series the post you want to!</description>
+      <pubDate>Sat, 25 Jun 2022 00:00:00 GMT</pubDate>
+      <author>danpa725@cau.ac.kr (danpacho)</author>
+      <category>NextJs</category><category>framework</category><category>series</category><category>post</category>
+    </item>
+    <item>
+      <guid>https://notefull-test.vercel.app/NextJs/1/NextJs[1]</guid>
+      <title>NextJs series1 🎉</title>
+      <link>https://notefull-test.vercel.app/NextJs/1/NextJs[1]</link>
+      <description>Next your home is built with NextJs! It's fast 🫡</description>
+      <pubDate>Mon, 20 Jun 2022 00:00:00 GMT</pubDate>
+      <author>danpa725@cau.ac.kr (danpacho)</author>
+      <category>NextJs</category><category>framework</category><category>series</category><category>post</category>
+    </item>
+    <item>
+      <guid>https://notefull-test.vercel.app/Styled/1/code-test</guid>
+      <title>code test</title>
+      <link>https://notefull-test.vercel.app/Styled/1/code-test</link>
+      <description>PREVIEW</description>
+      <pubDate>Sun, 04 Sep 2022 00:00:00 GMT</pubDate>
+      <author>danpa725@cau.ac.kr (AUTHOR)</author>
+      <category>TAG1</category><category>TAG2</category>
+    </item>
+    <item>
+      <guid>https://notefull-test.vercel.app/Styled/1/styling</guid>
+      <title>styled-components</title>
+      <link>https://notefull-test.vercel.app/Styled/1/styling</link>
+      <description>Next your home is styling with styled-components</description>
+      <pubDate>Fri, 24 Jun 2022 00:00:00 GMT</pubDate>
+      <author>danpa725@cau.ac.kr (danpacho)</author>
+      <category>styled-components</category><category>styling</category><category>css-in-js</category>
+    </item>
+    
+  </channel>
+</rss>

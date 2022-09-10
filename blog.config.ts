@@ -8,25 +8,22 @@ const contacts: Readonly<
         email: string // ✅ email for RSS
     }
 > = {
-    email: getAuthorContactHref("email", "your_email"),
-    github: getAuthorContactHref("github", "github_id"),
-    youtube: getAuthorContactHref("youtube", "youtube_id"),
-    facebook: getAuthorContactHref("facebook", "facebook_id"),
-    linkedin: getAuthorContactHref("linkedin", "linkedin_id"),
-    twitter: getAuthorContactHref("twitter", "twitter_id"),
+    email: getAuthorContactHref("email", "danpa725@cau.ac.kr"),
+    github: getAuthorContactHref("github", "danpacho"),
 }
 const author = {
-    name: "myname",
-    introduce: "Introduce yourself",
+    name: "danpacho",
+    introduce:
+        "Hi! I'm passionate young man. Young man becomes TOP GUN. You can modify it. Love your self, Plz.",
     faviconUrl: "/favicon.ico",
     bannerImageUrl: "/banner.png",
     contacts,
 } as const
 
 const blog = {
-    url: "your DEPLOY URL",
-    siteName: "your site name",
-    subtitle: "your site subtitle",
+    url: "https://notefull-test.vercel.app",
+    siteName: "Notefull",
+    subtitle: "Dev blog built with notefull ❤️",
     copyright: `${
         author.name
     }© All rights reserved ${new Date().getFullYear()}.`,
@@ -42,8 +39,8 @@ const config = {
     numberOfMainPageCategory: 5,
     themeColor: "#73d1d7",
     postControllerText: {
-        first: (category: string) => `Return to ${category}`, // first post ➡️ no prev post, so replace with your text
-        last: (category: string) => `Last contents of ${category}`, // last post ➡️ no next post, so replace with your text
+        first: (category: string) => `${category}로 돌아가기`, // first post ➡️ no prev post, so replace with your text
+        last: (category: string) => `${category}의 마지막 콘텐츠입니다!`, // last post ➡️ no next post, so replace with your text
     },
     navigationMenu: [
         {

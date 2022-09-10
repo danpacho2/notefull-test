@@ -1,0 +1,61 @@
+---
+title: code test
+preview: PREVIEW
+author: AUTHOR
+update: 2022/09/04
+color: "#7a928e"
+tags: TAG1, TAG2
+---
+
+| 제목    | 내용      | 설명    |
+| ------- | --------- | ------- |
+| 테스트1 | _강조1_   | 테스트3 |
+| 테스트1 | **강조2** | 테스트3 |
+| 테스트1 | 강조3     | 테스트3 |
+
+```tsx {1,2} showLineNumbers
+const App = () => {
+		//...
+		return (
+	     <Provider1 value={state1}>
+	      <Provider2 value={state2}>
+	       <Provider3 value={state3}>
+	        <Provider4 value={state4}>
+            <Provider5 value={state5}>
+              <View />
+            </Provider5>
+	        </Provider4>
+	       </Provider3>
+	      </Provider2>
+	     </Provider1>
+	  )
+	}
+}
+```
+
+```js showLineNumbers
+class Point {
+    constructor(x, y) {
+        this.x = x
+        this.y = y
+    }
+
+    static displayName = "Point"
+    static distance(a, b) {
+        const dx = a.x - b.x
+        const dy = a.y - b.y
+
+        return Math.hypot(dx, dy)
+    }
+}
+
+const p1 = new Point(5, 5)
+const p2 = new Point(10, 10)
+p1.displayName // undefined
+p1.distance // undefined
+p2.displayName // undefined
+p2.distance // undefined
+
+console.log(Point.displayName) // "Point"
+console.log(Point.distance(p1, p2)) // 7.0710678118654755
+```
